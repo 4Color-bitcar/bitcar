@@ -1,0 +1,20 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
+
+nav.footer{
+	position: relative;
+	margin-top: 50px;
+	background-color: orange;
+	color: white;
+	text-align: center;
+	font-size: 13px;
+	line-height: 20px;
+	letter-spacing: 5px;
+	word-spacing: 5px;
+	font-family: 'Noto Sans KR';
+    left:0;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+	vertical-align: bottom;
+}

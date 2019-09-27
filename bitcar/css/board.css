@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+table#bList{
+	text-align: center;
+	margin: 0 auto;
+	color: red;
+}
+
+#btn1{
+	margin-left: 50%;
+	
+}
+.btn2{
+	background-color: red;
+	top: 0;
+	right: 0;
+	cursor: hand;
+	float: right;
+}

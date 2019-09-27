@@ -1,0 +1,153 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+
+/* dropdown 메뉴부분*/
+/* Style The Dropdown Button */
+.dropbtn {
+	background-color: orange;
+	color: white;
+	padding: 10px;
+	font-size: 15px;
+	border: none;
+	cursor: pointer;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	width: 130px;
+	margin-top: -20px;
+	font-family: 'Roboto Mono';
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+	position: relative;
+	display: inline-block;
+	margin: 0 auto;
+	left: calc(50% - 132px/ 2);
+}
+
+/* Dropdown Content */
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: white;
+	opacity: 0.8;
+	border-radius:4px;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	font-size: 15px;
+	font-family: 'Roboto Mono';
+	letter-spacing: 3px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+	background-color: green;
+	color: white;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn{
+	background-color: #3e8e41;
+}
+
+.tri:hover{
+	border-top:10px solid #3e8e41;
+}
+.tri{
+margin:auto;
+  width: 0px;height: 0px;
+  border-top:10px solid orange;
+  border-bottom:50px solid none;
+  border-right: 10px solid transparent;
+  border-left: 10px solid  transparent;
+}
+
+#login{
+	text-align: right;
+}
+#logout{
+		text-align: right;
+}
+#title{
+	word-spacing: 10px;
+	font-weight:bold;
+	text-decoration: none;
+ 	font-family: 'Abril Fatface', cursive; 
+	text-align: center;
+}
+h1 a{
+	color: black;
+}
+h3 a{
+	color: black;
+	text-decoration: none;
+}
+
+/* main 사진 부분 */
+#hyundai{
+	background-image: url('../img/road1.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 50%;
+	height: 700px;
+	float: left; 
+	color: white;
+	text-align: center;
+}
+
+#hyundai:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+#ph{
+	margin-top: 30%;
+	font-size: 70px;
+	font-family: 'Old Standard TT';
+	text-shadow: 3px 2px blue;
+}
+
+#pk{
+	margin-top: 30%;
+	font-size: 70px;
+	font-family: 'Old Standard TT';
+	text-shadow: 3px 2px red;
+}
+
+.p1{
+	margin-top: 30px;
+	text-shadow: 3px 2px black;
+}
+
+#kia {
+	background-image: url('../img/road3.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 50%;
+	height: 700px;
+	float: right;
+	color: white;
+	text-align: center;
+}
+
+#kia:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}

@@ -1,0 +1,32 @@
+@charset "UTF-8";
+ 
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
+
+
+body{
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+#output{
+	margin: 0 auto;
+	width: 400px;
+	padding-top: 5%;
+	padding-bottom: 50px; 
+} 
+
+#keyword{
+	width: 400px;
+	height: 50px;
+	font-size: 20px;
+}
+
+#submit{
+	width: 400px;
+	height: 50px;
+	background-color: orange;
+	border: 2px solid orange;
+	border-radius: 12px;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}

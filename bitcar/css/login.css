@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One|Russo+One|Saira+Stencil+One&display=swap');
+
+header {
+    width : 100%;
+    height: 10%;
+    position: relative;
+    padding-top: 30px;
+}
+
+#title{
+	letter-spacing:10px;
+	font-size: 60px;
+	font-weight:bold;
+	text-decoration: none;
+	font-family: 'Fugaz One', cursive;
+	text-align: center;
+	 text-shadow: 3px 2px #ffc964;
+}
+
+a{
+     text-decoration: none;
+}
+
+h1 a{
+	color: white;
+}
+
+a:hover {
+		 text-shadow: 3px 2px orange;
+}
+
+body{
+	background-image: url('../img/drive.jpg');
+	background-size: 100%;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+#output{
+	margin: 0 auto;
+	width: 410px;
+	padding-top: 5%;
+	padding-bottom: 50px; 
+} 
+
+#id{
+	width: 400px;
+	height: 50px;
+	font-size: 20px;
+}
+
+#pw{
+	width: 400px;
+	height: 50px;
+	font-size: 20px;
+	
+}
+
+#submit{
+	width: 400px;
+	height: 50px;
+	background-color: orange;
+	border: 2px solid orange;
+	border-radius: 12px;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#reset{
+	margin-left: 60%;
+	width: 80px;
+	height: 25px;
+	background-color: olive;
+	border: 2px solid olive;
+	border-radius: 4px;
+	color: white;
+}
+
+#join{
+	color: white;
+}

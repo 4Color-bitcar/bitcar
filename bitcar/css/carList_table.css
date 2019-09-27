@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+}
+
+table.tablea{
+	width: 1200px;
+ 	margin-left: 20px;
+	margin-right: 10px;
+	margin: 0 auto;
+}
+
+.tabletxt{
+	width: 500px;
+}
+
+th, td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid green;
+  text-align: center;
+}
+th, #number{
+	background-color: #8FBC8F;
+	font-weight: bold;
+}
+#dinsert{
+	margin-right: 5cm;
+	text-align:right;
+}
+
+#insert, #del{
+	font-weight:bold;
+	color: white;
+	background-color: #8FBC8F;
+	border-radius: 4px;
+}
+#insert:hover{
+	text-shadow: none;
+}
